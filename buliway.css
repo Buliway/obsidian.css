@@ -1,0 +1,98 @@
+/* Тупо кнопка. По фану добавил */
+.buliway_button {
+    color: rgba(255,255,255,0.75);
+    background-color: #080e13;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.buliway:hover {
+    color: #4ab8fd;
+    background-color: #0e171e;
+    text-decoration: none;
+}
+
+/* 
+Использую для выделения ссылок цветом. 
+Обычно просто пишу html в заметке 
+Например <a href="https://example.com" class="buliway_yellow">Link</a>
+*/
+.buliway_yellow {
+    color: #ffff00;
+}
+
+
+.buliway_red {
+    color: #ff0000;
+}
+
+
+.buliway_green {
+    color: #00b050;
+}
+
+
+.buliway_purple {
+    color: #c516b7;
+}
+
+.buliway_cyan {
+    color: cyan;
+}
+
+.buliway_lightblue {
+    color: #00b0f0;
+}
+
+.buliway_white {
+    color: white;
+}
+
+
+.buliway_yellow:hover,
+.buliway_red:hover,
+.buliway_green:hover,
+.buliway_purple:hover,
+.buliway_cyan:hover,
+.buliway_lightblue:hover,
+.buliway_white:hover,
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+    color: #ed7600 !important;
+}
+
+/* Меняет цвет ссылок на другую заметку */
+.cm-s-obsidian span.cm-hmd-internal-link,
+.markdown-preview-view .internal-link {
+    color: cyan !important;
+}
+
+/* Меняет цвета заголовков */
+.cm-header-1 {
+    color: #00b0f0 !important;
+}
+
+.cm-header-2 {
+    color: #ffff00 !important;
+}
+
+
+.cm-header-3 {
+    color: lime !important;
+}
+
+
+.cm-header-4 {
+    color: #ff0000 !important;
+}
+
+
+.cm-header-5 {
+    color: #c516b7 !important;
+}
+
+
+.cm-header-6 {
+    color: #00b050 !important;
+}
