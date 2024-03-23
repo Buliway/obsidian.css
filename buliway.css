@@ -1,5 +1,5 @@
 /* Тупо кнопка. По фану добавил */
-.buliway_button {
+.b_button {
     color: rgba(255,255,255,0.75);
     background-color: #080e13;
     display: inline-block;
@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-.buliway_button:hover {
+.b_button:hover {
     color: #4ab8fd;
     background-color: #0e171e;
     text-decoration: none;
@@ -17,81 +17,100 @@
 /* 
 Использую для выделения ссылок цветом. 
 Обычно просто пишу html в заметке 
-Например <a href="https://example.com" class="buliway_yellow">Link</a>
+Например <a href="https://example.com" class="b_yellow">Link</a>
 */
-.buliway_yellow {
+.b_yellow {
     color: #ffff00;
 }
 
 
-.buliway_red {
+.b_red {
     color: #ff0000;
 }
 
 
-.buliway_green {
+.b_green {
     color: #00b050;
 }
 
 
-.buliway_purple {
+.b_purple {
     color: #c516b7;
 }
 
-.buliway_cyan {
+.b_cyan {
     color: cyan;
 }
 
-.buliway_lightblue {
+.b_lightblue {
     color: #00b0f0;
 }
 
-.buliway_white {
+.b_white {
     color: white;
 }
 
 
-.buliway_yellow:hover,
-.buliway_red:hover,
-.buliway_green:hover,
-.buliway_purple:hover,
-.buliway_cyan:hover,
-.buliway_lightblue:hover,
-.buliway_white:hover,
-.cm-s-obsidian span.cm-hmd-internal-link:hover {
+.b_yellow:hover,
+.b_red:hover,
+.b_green:hover,
+.b_purple:hover,
+.b_cyan:hover,
+.b_lightblue:hover,
+.b_white:hover,
+.cm-s-obsidian span.cm-hmd-internal-link:hover .cm-underline,
+.internal-link:hover,
+.cm-header .cm-underline:hover {
     color: #ed7600 !important;
 }
 
 /* Меняет цвет ссылок на другую заметку */
 .cm-s-obsidian span.cm-hmd-internal-link,
-.markdown-preview-view .internal-link {
+span.cm-hmd-internal-link .cm-underline,
+.internal-link {
     color: cyan !important;
 }
 
 /* Меняет цвета заголовков */
-.cm-header-1 {
+.cm-header-1,
+.cm-header-1 .cm-underline,
+.hover-popover h1 {
     color: #00b0f0 !important;
 }
 
-.cm-header-2 {
+.cm-header-2,
+.cm-header-2 .cm-underline
+.hover-popover h2 {
     color: #ffff00 !important;
 }
 
 
-.cm-header-3 {
+.cm-header-3,
+.cm-header-3 .cm-underline
+.hover-popover h3 {
     color: lime !important;
 }
 
 
-.cm-header-4 {
+.cm-header-4,
+.cm-header-4 .cm-underline
+.hover-popover h4 {
     color: #ff0000 !important;
 }
 
 
-.cm-header-5 {
+.cm-header-5,
+.cm-header-5 .cm-underline
+.hover-popover h5 {
     color: #c516b7 !important;
 }
 
+
+.cm-header-6,
+.cm-header-6 .cm-underline
+.hover-popover h6 {
+    color: #00b050 !important;
+}
 
 .cm-header-6 {
     color: #00b050 !important;
