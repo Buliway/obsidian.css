@@ -111,3 +111,11 @@ span.cm-hmd-internal-link .cm-underline,
 .hover-popover h6 {
     color: #00b050 !important;
 }
+
+/* Чтоб `текст` выделялся на фоне остальных */
+.cm-inline-code {
+    /* background-color: #0f65e6 !important; */
+    background-color: transparent !important;
+    color: #6ad166 !important;
+    /* font-weight: bold !important; */
+}
