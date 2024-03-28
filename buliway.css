@@ -113,7 +113,8 @@ span.cm-hmd-internal-link .cm-underline,
 }
 
 /* Чтоб `текст` выделялся на фоне остальных */
-.cm-inline-code {
+.cm-inline-code,
+.table-cell-wrapper code {
     /* background-color: #0f65e6 !important; */
     background-color: transparent !important;
     color: #6ad166 !important;
