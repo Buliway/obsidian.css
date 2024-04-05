@@ -79,35 +79,35 @@ span.cm-hmd-internal-link .cm-underline,
 }
 
 .cm-header-2,
-.cm-header-2 .cm-underline
+.cm-header-2 .cm-underline,
 .hover-popover h2 {
     color: #ffff00 !important;
 }
 
 
 .cm-header-3,
-.cm-header-3 .cm-underline
+.cm-header-3 .cm-underline,
 .hover-popover h3 {
     color: lime !important;
 }
 
 
 .cm-header-4,
-.cm-header-4 .cm-underline
+.cm-header-4 .cm-underline,
 .hover-popover h4 {
     color: #ff0000 !important;
 }
 
 
 .cm-header-5,
-.cm-header-5 .cm-underline
+.cm-header-5 .cm-underline,
 .hover-popover h5 {
     color: #c516b7 !important;
 }
 
 
 .cm-header-6,
-.cm-header-6 .cm-underline
+.cm-header-6 .cm-underline,
 .hover-popover h6 {
     color: #00b050 !important;
 }
