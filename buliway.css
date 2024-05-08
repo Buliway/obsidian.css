@@ -74,50 +74,62 @@ span.cm-hmd-internal-link .cm-underline,
 /* Меняет цвета заголовков */
 .cm-header-1,
 .cm-header-1 .cm-underline,
-.hover-popover h1 {
+.hover-popover h1,
+.markdown-reading-view h1 {
     color: #00b0f0 !important;
 }
 
 .cm-header-2,
 .cm-header-2 .cm-underline,
-.hover-popover h2 {
+.hover-popover h2,
+.markdown-reading-view h2 {
     color: #ffff00 !important;
 }
 
 
 .cm-header-3,
 .cm-header-3 .cm-underline,
-.hover-popover h3 {
+.hover-popover h3,
+.markdown-reading-view h3 {
     color: lime !important;
 }
 
 
 .cm-header-4,
 .cm-header-4 .cm-underline,
-.hover-popover h4 {
+.hover-popover h4,
+.markdown-reading-view h4 {
     color: #ff0000 !important;
 }
 
 
 .cm-header-5,
 .cm-header-5 .cm-underline,
-.hover-popover h5 {
+.hover-popover h5,
+.markdown-reading-view h5 {
     color: #c516b7 !important;
 }
 
 
 .cm-header-6,
 .cm-header-6 .cm-underline,
-.hover-popover h6 {
+.hover-popover h6,
+.markdown-reading-view h6 {
     color: #00b050 !important;
 }
 
 /* Чтоб `текст` выделялся на фоне остальных */
 .cm-inline-code,
 .table-cell-wrapper code,
-.internal-embed code {
+.internal-embed code,
+.hover-popover code {
     /* background-color: #0f65e6 !important; */
     background-color: transparent !important;
     color: #6ad166 !important;
     /* font-weight: bold !important; */
 }
+
+/* Чтоб каждый второй элемент таблицы был чуть темнее */
+/* tr:nth-child(2n) {
+    background-color: rgba(0,0,0,0.2) !important;
+} */
